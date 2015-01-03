@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuitemExibirCursos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_exibir_cursos"/>
+
+    <item
+        android:id="@+id/menuitemExibirDisciplinas"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_exibir_disciplinas"/>
+
+    <item
+        android:id="@+id/menuitemExibirAlunos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_exibir_alunos"/>
+    
+    <item
+        android:id="@+id/menuitemIncluirCurso"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_incluir_curso"/>
+
+    <item
+        android:id="@+id/menuitemIncluirDisciplina"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_incluir_disciplina"/>
+
+    <item
+        android:id="@+id/menuitemIncluirAluno"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_item_incluir_aluno"/>
+
+</menu>

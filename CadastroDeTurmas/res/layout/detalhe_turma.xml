@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView 
+            android:text="abreviação"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+        <EditText 
+            android:id="@+id/editTurmaAbreviacao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView 
+            android:text="descrição"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+        <EditText 
+            android:id="@+id/editTurmaDescricao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView 
+            android:text="ano"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+        <EditText 
+            android:id="@+id/editTurmaAno"
+            android:inputType="number"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView 
+            android:text="semestre"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+        <EditText 
+            android:id="@+id/editTurmaSemestre"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonTurmaSalvar"
+        android:text="salvar"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>

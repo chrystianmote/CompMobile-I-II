@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ComparaPrecosSupermercado.iml" filepath="$PROJECT_DIR$/ComparaPrecosSupermercado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComparaPrecosSupermercado/ComparaPrecosSupermercado-ComparaPrecosSupermercado.iml" filepath="$PROJECT_DIR$/ComparaPrecosSupermercado/ComparaPrecosSupermercado-ComparaPrecosSupermercado.iml" />
+    </modules>
+  </component>
+</project>
+

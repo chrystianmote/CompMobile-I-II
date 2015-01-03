@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExperimentoDialog</string>
+    <string name="menu_item_exibir_cursos">Exibir cursos</string>
+    <string name="menu_item_exibir_disciplinas">Exibir disciplinas</string>
+    <string name="menu_item_exibir_alunos">Exibir alunos</string>
+    <string name="menu_item_incluir_curso">Cadastrar curso</string>
+    <string name="menu_item_incluir_disciplina">Cadastrar disciplina</string>
+    <string name="menu_item_incluir_aluno">Cadastrar aluno</string>
+    <string name="menu_item_alterar_item">Alterar registro</string>
+    <string name="menu_item_remover_item">Remover este item</string>
+    
+    <string name="mensagem_confirmacao_excluir">Confirma exclusão de item?</string>
+    <string name="botao_confirmar_exclusao">Sim</string>
+    <string name="botao_cancelar_exclusao">Não</string>
+    
+    <string name="mensagem_exclusao_realizada">Exclusão de item realizada.</string>
+    <string name="mensagem_exclusao_cancelada">Exclusão de item cancelada.</string>
+    <string name="mensagem_inclusao_realizada">Inclusão de item realizada.</string>
+    <string name="mensagem_inclusao_cancelada">Inclusão de item cancelada.</string>
+    <string name="mensagem_alteracao_realizada">Alteração de item realizada.</string>
+    <string name="mensagem_alteracao_cancelada">Alteração de item cancelada.</string>
+    
+    <string name="titulo_cursos">Cursos:</string>
+    <string name="titulo_disciplinas">Disciplinas:</string>
+    <string name="titulo_alunos">Alunos:</string>
+    
+    <string name="titulo_nome_curso">Nome:</string>
+    <string name="titulo_duracao_curso">Duração:</string>
+    
+    <string name="titulo_codigo_disciplina">Código:</string>
+    <string name="titulo_nome_disciplina">Nome:</string>
+    <string name="titulo_creditos_disciplina">Créditos</string>
+    
+    <string name="titulo_matricula_aluno">Matrícula:</string>
+    <string name="titulo_nome_aluno">Nome:</string>
+    
+    <string name="botao_salvar">Salvar</string>
+    <string name="botao_cancelar">Cancelar</string>
+    
+</resources>

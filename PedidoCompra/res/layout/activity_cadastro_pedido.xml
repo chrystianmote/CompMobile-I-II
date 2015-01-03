@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_cliente" />
+        
+        <Spinner
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerPedidoCliente" />
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_novo_cliente"
+            android:id="@+id/buttonNovoCliente" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_filial" />
+        
+        <Spinner
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerPedidoFilial" />
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_nova_filial"
+            android:id="@+id/buttonNovaFilial" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_contato" />
+        
+        <Spinner
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerPedidoContato" />
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_novo_contato"
+            android:id="@+id/buttonNovoContato" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_produto" />
+        
+        <Spinner
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerPedidoProduto" />
+        
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_novo_produto"
+            android:id="@+id/buttonNovoProduto" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_preco_unitario" />
+        
+        <EditText 
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPrecoUnitario"
+            android:inputType="none" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_quantidade" />
+        
+        <EditText 
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_quantidade"
+            android:id="@+id/editQuantidade"
+            android:inputType="number" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_desconto" />
+        
+        <EditText 
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_desconto"
+            android:id="@+id/editDesconto"
+            android:inputType="numberDecimal" />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        
+        <TextView 
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="@string/label_valor_pedido" />
+        
+        <EditText 
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editValorPedido"
+            android:editable="false" />
+        
+    </LinearLayout>
+
+</LinearLayout>

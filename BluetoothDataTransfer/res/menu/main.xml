@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_procura_dispositivos"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_procura_dispositivos"/>
+
+    <item
+        android:id="@+id/action_tornar_disponivel"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_tornar_disponivel"/>
+
+</menu>

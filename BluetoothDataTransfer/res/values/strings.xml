@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth Data Transfer</string>
+    <string name="ola_bluetooth">Olá, Bluetooth!</string>
+    <string name="action_procura_dispositivos">Procurar dispositivos</string>
+    <string name="action_tornar_disponivel">Disponibilizar este dispositivo</string>
+    
+</resources>

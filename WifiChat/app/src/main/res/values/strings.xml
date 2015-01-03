@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WifiChat</string>
+    <string name="label_ipremoto">IP destino</string>
+    <string name="label_mensagem">Mensagem</string>
+    <string name="label_origem">De:</string>
+    <string name="label_destino">Para:</string>
+    <string name="sair">Sair</string>
+
+</resources>

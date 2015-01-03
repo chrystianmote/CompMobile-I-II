@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">PedidoCompra</string>
+    <string name="title_activity_listagem_pedidos">Listagem de Pedidos</string>
+    <string name="listagem_pedidos_vazia">Não há pedido a exibir.</string>
+    <string name="listagem_pedidos_menuitem_cadastrar">Cadastrar pedido</string>
+    <string name="listagem_pedidos_menuitem_sair">Sair</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="label_filial">Filial</string>
+    <string name="label_contato">Contato</string>
+    <string name="label_produto">Produto</string>
+    <string name="label_quantidade">Quantidade</string>
+    <string name="label_desconto">Desconto</string>
+    <string name="label_valor_pedido">Valor do pedido</string>
+    <string name="button_novo_cliente">Novo cliente</string>
+    <string name="button_nova_filial">Nova filial</string>
+    <string name="button_novo_contato">Novo contato</string>
+    <string name="button_novo_produto">Novo produto</string>
+    <string name="hint_quantidade">informe a quantidade pedida</string>
+    <string name="hint_desconto">informe o desconto oferecido</string>
+    <string name="menu_salvar">Salvar registro</string>
+    <string name="menu_cancelar">Cancelar</string>
+    <string name="label_preco_unitario">Preço unitário</string>
+    
+</resources>

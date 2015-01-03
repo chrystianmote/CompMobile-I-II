@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.alexromanelli.android.testenavegacaoatividades.app.Zero" >
+    
+    <item android:id="@+id/item_executa_um"
+        android:title="@string/m_op_executa_um"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
